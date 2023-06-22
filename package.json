@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-tree-prune",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prune the dependency tree and only include files needed",
   "license": "BSD-3-Clause",
   "repository": "github:LevanIlashvili/serverless-plugin-tree-prune",
