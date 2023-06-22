@@ -1,0 +1,15 @@
+{
+  "name": "framework",
+  "private": true,
+  "main": "index.ts",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@hapi/bourne": "^3.0.0",
+    "@hapi/joi": "^17.1.1",
+    "apr-intercept": "^3.0.4",
+    "debug": "^4.3.4"
+  },
+  "devDependencies": {
+    "aws-lambda": "^1.0.7"
+  }
+}
