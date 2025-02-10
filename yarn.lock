@@ -5021,6 +5021,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-type@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "path-type@npm:6.0.0"
+  checksum: b9f6eaf7795c48d5c9bc4c6bc3ac61315b8d36975a73497ab2e02b764c0836b71fb267ea541863153f633a069a1c2ed3c247cb781633842fc571c655ac57c00e
+  languageName: node
+  linkType: hard
+
 "performance-now@npm:^2.1.0":
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
@@ -5650,7 +5657,7 @@ __metadata:
     mz: ^2.7.0
     nanomatch: ^1.2.13
     path-is-inside: ^1.0.2
-    path-type: ^4.0.0
+    path-type: ^6.0.0
     pkg-up: ^5.0.0
     prettier: ^3.0.3
     pretty-bytes: ^6.1.1
