@@ -48,7 +48,7 @@
     "tempy": "^1.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
+    "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^17.0.0",
     "apr-for-each": "^3.0.3",
     "apr-main": "^4.0.3",
