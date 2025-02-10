@@ -2195,25 +2195,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-xo-space@npm:^0.33.0":
-  version: 0.33.0
-  resolution: "eslint-config-xo-space@npm:0.33.0"
+"eslint-config-xo-space@npm:^0.35.0":
+  version: 0.35.0
+  resolution: "eslint-config-xo-space@npm:0.35.0"
   dependencies:
-    eslint-config-xo: ^0.41.0
+    eslint-config-xo: ^0.44.0
   peerDependencies:
-    eslint: ">=8.6.0"
-  checksum: bea097e44af04d0e2ac7fa26f2ad5246cf934ede83c30f815ccc94fef8fc311b9d9eb6f0038045f5eada33babdd6c3b112ef0cfe0db0f7ea28d83f2672cf9355
+    eslint: ">=8.56.0"
+  checksum: 9595d70fcdf328ee59bf39fa9119bfdcd6bd40062386190a2908d3d1d6942756dc45ab4f9e92c48f865e33983e0cc5dffca091d397c3f8ec1e7be162db296a75
   languageName: node
   linkType: hard
 
-"eslint-config-xo@npm:^0.41.0":
-  version: 0.41.0
-  resolution: "eslint-config-xo@npm:0.41.0"
+"eslint-config-xo@npm:^0.44.0":
+  version: 0.44.0
+  resolution: "eslint-config-xo@npm:0.44.0"
   dependencies:
     confusing-browser-globals: 1.0.11
   peerDependencies:
-    eslint: ">=8.14.0"
-  checksum: 9c709ad670b62e4cecb75f5ddceb8c4c85ad4c0e5ed7ebc803c7f21ea2e8738c1849e269eb89764cc57f38a66bc6764bfec66fc69fa252150e678bafca0409da
+    eslint: ">=8.56.0"
+  checksum: 4756429d5db857db3f7c47b3fa045cbf0d041678771875a535ad673f4555a8d1f44e7e7d81487b4370d65d663b7c8c003eeca987a749c8abddf146a90cacace1
   languageName: node
   linkType: hard
 
@@ -5637,7 +5637,7 @@ __metadata:
     directory-tree: ^3.5.2
     eslint: ^8.15.0
     eslint-config-prettier: ^8.5.0
-    eslint-config-xo-space: ^0.33.0
+    eslint-config-xo-space: ^0.35.0
     execa: ^8.0.1
     globby: ^11.1.0
     husky: ^8.0.1
