@@ -51,12 +51,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@commitlint/config-conventional@npm:17.0.0"
+"@commitlint/config-conventional@npm:^19.8.0":
+  version: 19.8.0
+  resolution: "@commitlint/config-conventional@npm:19.8.0"
   dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: d2a8973c65de53bfc283795480c2d12d61507cb13e7e2be129de693c966cf39601e5ebf9b0928508a379f287487fc5ae022ba16868186edf98b5e0a9d73ee96f
+    "@commitlint/types": ^19.8.0
+    conventional-changelog-conventionalcommits: ^7.0.2
+  checksum: 9c2cd7d8ddceeaf87acc2538e1c2ce486e1f1dae239b33dede01daf38d7d3c73abd1fc2e732bd45e637e4f2caaac5f405d16a8255f3df1f15a710546fe791f01
   languageName: node
   linkType: hard
 
@@ -220,6 +221,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/types@npm:^19.8.0":
+  version: 19.8.0
+  resolution: "@commitlint/types@npm:19.8.0"
+  dependencies:
+    "@types/conventional-commits-parser": ^5.0.0
+    chalk: ^5.3.0
+  checksum: a8bd0b65a2cf7d9924102c798ec2b68ffeb28c58c4aa975f953b85fcc7404fcc50f11054899d1b7a87f2a14da43a22452725eca6a211bbd5dcdde92b33458a6d
+  languageName: node
+  linkType: hard
+
 "@concordance/react@npm:^2.0.0":
   version: 2.0.0
   resolution: "@concordance/react@npm:2.0.0"
@@ -367,6 +378,15 @@ __metadata:
   version: 1.0.2
   resolution: "@tsconfig/node16@npm:1.0.2"
   checksum: ca94d3639714672bbfd55f03521d3f56bb6a25479bd425da81faf21f13e1e9d15f40f97377dedbbf477a5841c5b0c8f4cd1b391f33553d750b9202c54c2c07aa
+  languageName: node
+  linkType: hard
+
+"@types/conventional-commits-parser@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "@types/conventional-commits-parser@npm:5.0.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: b4eb4f22051d42e7ed9fd3bffe6ea0cf62ae493a3c6c775a16babbad977c934f4c09ec3fa93020894de2073d63cfcd3a27dd5f00984966161da6797dd88a0f0d
   languageName: node
   linkType: hard
 
@@ -1289,6 +1309,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^5.3.0":
+  version: 5.4.1
+  resolution: "chalk@npm:5.4.1"
+  checksum: 0c656f30b782fed4d99198825c0860158901f449a6b12b818b0aabad27ec970389e7e8767d0e00762175b23620c812e70c4fd92c0210e55fc2d993638b74e86e
+  languageName: node
+  linkType: hard
+
 "chokidar@npm:^3.4.3":
   version: 3.5.0
   resolution: "chokidar@npm:3.5.0"
@@ -1650,14 +1677,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.5.0
-  resolution: "conventional-changelog-conventionalcommits@npm:4.5.0"
+"conventional-changelog-conventionalcommits@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "conventional-changelog-conventionalcommits@npm:7.0.2"
   dependencies:
     compare-func: ^2.0.0
-    lodash: ^4.17.15
-    q: ^1.5.1
-  checksum: e11944881f123f26a92e823a96e4d921b03203a312da9d539773c424103b49917f59fa717a079738f4d5b0e9709b0336ec323a86a56df7d008663b01e5f8b3b9
+  checksum: e17ac5970ae09d6e9b0c3a7edaed075b836c0c09c34c514589cbe06554f46ed525067fa8150a8467cc03b1cf9af2073e7ecf48790d4f5ea399921b1cbe313711
   languageName: node
   linkType: hard
 
@@ -5623,7 +5648,7 @@ __metadata:
   resolution: "serverless-plugin-tree-prune@workspace:."
   dependencies:
     "@commitlint/cli": ^17.0.0
-    "@commitlint/config-conventional": ^17.0.0
+    "@commitlint/config-conventional": ^19.8.0
     "@vercel/nft": ^0.19.0
     apr-find: ^3.0.3
     apr-for-each: ^3.0.3
